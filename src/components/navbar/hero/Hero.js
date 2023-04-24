@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className={styles.hero}>
         <div className={styles.nine}>
-        <h1>APL MUN <span>Tagline Keywords</span></h1>
+        <h1>APL MUN <span> Where Words Rule </span></h1>
         </div>
     </div>
   )
