@@ -8,9 +8,10 @@ import About from './components/navbar/about/About';
 function App() {
   return (
     <div >
+      <Navbar/>
       <Hero/>
-      <Gallery/>
       <About/>
+      <Gallery/>
       <Footer/>
     </div>
   );

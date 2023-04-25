@@ -33,8 +33,8 @@ const Gallery = () => {
             pagination={{clickable: true}}
             breakpoints={{
                 340: {
-                    width: 200,
-                    slidesPerView: 1,
+                    width: 340,
+                    slidesPerView: 0,
                 },
 
                 768: {

@@ -1,41 +1,19 @@
 .hero {
-    background: #FFF2CC;
+    background: #011233;
     width: 100%;
-    height: 150px;
+    height: 70px;
 }
 
 .nine h1 {
     text-align:center; font-size:50px; text-transform:uppercase; color:#222; letter-spacing:1px;
-    font-family:"Playfair Display", serif; font-weight:400; padding-left: 50px; justify-content: center;
-  }
-  .nine h1 span {
-    margin-top: 5px;
-      font-size:15px; color:#444; word-spacing:1px; font-weight:normal; letter-spacing:2px;
-      text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
-  
-      display: grid;
-      grid-template-columns: 1fr max-content 1fr;
-      grid-template-rows: 27px 0;
-      grid-gap: 20px;
-      align-items: center;
+    font-family:"Poppins, sans-srif"; font-weight:400; padding-left: 50px; justify-content: center; color: #E5E5E5;
   }
   
-  .nine h1 span:after,.nine h1 span:before {
-      content: " ";
-      display: block;
-  }
 
   @media screen and (max-width: 720px) {
 
     .nine h1 {
       width: 100%;
       height: 80vh;
-    }
-
-    .nine h1 span {
-      font-size: 12px;
-      width: 100%;
-      text-align: center;
-      margin: 0;
     }
   }

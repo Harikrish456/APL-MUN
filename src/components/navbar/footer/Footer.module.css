@@ -1,28 +1,41 @@
 .footer_basic {
 	padding:40px 0; 
-	background-color: #DFA67B;
+	background-color: whitesmoke;
+	height: 60px;
+
   }
   
-  .footer_basic ul {
+  .footer_basic ol {
 	padding:0;
 	list-style:none;
 	text-align:center;
 	font-size:18px;
 	line-height:1.6;
-	margin-bottom:0;
   }
   
   .footer_basic li {
-	padding:0 10px;
+	margin-bottom: -70px;
+	margin-right: 20px;
+  }
+
+  .social {
+	margin-top: -20px;
+  }
+
+  .list_line_item {
+	
   }
   
-  .footer_basic ul a {
+  .footer_basic ol a {
 	color:inherit;
 	text-decoration:none;
 	opacity:0.8;
+	align-content: center;
+	margin-left: 10px;
+	margin-bottom: -50px;
   }
   
-  .footer_basic ul a:hover {
+  .footer_basic ol a:hover {
 	opacity:1;
   }
 
@@ -51,8 +64,8 @@
   }
   
   .footer_basic .copyright {
-	margin-top:15px;
-	text-align:center;
+	margin-top: 20px;
+	text-align:right;
 	font-size:13px;
 	color:black;
 	margin-bottom:0;

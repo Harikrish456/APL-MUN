@@ -8,12 +8,8 @@ const Navbar = () => {
 
   return (
     <header className={styles.navbar}>
-    <img src={Logo} alt="APL" style={{ height:70 }}/>
       <nav> 
         <ul className={styles.menu}>
-            <li>
-                <a href = "/"> Learn More </a>
-            </li>
             <li>
                 <a href = "/"> About </a>
             </li>
