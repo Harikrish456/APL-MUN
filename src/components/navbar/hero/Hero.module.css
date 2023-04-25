@@ -4,9 +4,9 @@
     height: 70px;
 }
 
-.nine h1 {
-    text-align:center; font-size:50px; text-transform:uppercase; color:#222; letter-spacing:1px;
-    font-family:"Poppins, sans-srif"; font-weight:400; padding-left: 50px; justify-content: center; color: #E5E5E5;
+.hero .nine h1 {
+    text-align:center; font-size:60px; text-transform:uppercase; color:#222; letter-spacing:1px;
+    font: 'Poppins'; font-weight:400; padding-left: 50px; justify-content: center; color: #E5E5E5;
   }
   
 
