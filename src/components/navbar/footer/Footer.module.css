@@ -64,9 +64,27 @@
   }
   
   .footer_basic .copyright {
-	margin-top: 20px;
+	margin-top: 50px;
 	text-align:right;
 	font-size:13px;
 	color:black;
-	margin-bottom:0;
+	margin-bottom: 90;
+  }
+
+  @media screen and (max-width:700px){
+	.footer_basic .copyright {
+		font-size: 11px;
+	}
+  }
+
+  @media screen and (max-width:500px){
+	.footer_basic .copyright {
+		font-size: 10px;
+	}
+  }
+
+  @media screen and (max-width:400px){
+	.footer_basic .copyright {
+		font-size: 8px;
+	}
   }
